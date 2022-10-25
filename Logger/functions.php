@@ -162,6 +162,7 @@ if ( !function_exists('lgr_register_scripts') ) {
         wp_register_script('jquery.bootstrap',  LGR_BASE_URL . '/js/bootstrap.min.js');
         wp_register_script('jquery.isotope',    LGR_BASE_URL . '/js/jquery.isotope.min.js');
         wp_register_script('jquery.fancybox',   LGR_BASE_URL . '/js/jquery.fancybox.min.js');
+        wp_register_script('mainjs',   LGR_BASE_URL . '/js/main.js');
 
     }
     add_action('init', 'lgr_register_scripts');
@@ -173,6 +174,7 @@ if ( !function_exists('lgr_enqueue_scripts') ) {
         wp_enqueue_script('jquery.bootstrap');
         wp_enqueue_script('jquery.isotope');
         wp_enqueue_script('jquery.fancybox');
+        wp_enqueue_script('mainjs');
     }
     add_action('wp_print_scripts', 'lgr_enqueue_scripts');
 }
