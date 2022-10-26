@@ -166,7 +166,7 @@ hr {
     position: relative;
 }
 
-.imgList {
+/* .imgList {
     animation: rolling 120s linear infinite;
     position: absolute;
     display: flex;
@@ -177,7 +177,7 @@ hr {
     animation-play-state: paused;
     position: absolute;
     display: flex;
-}
+} */
 
 #div1 ul li {
     list-style: none;

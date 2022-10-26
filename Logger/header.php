@@ -47,8 +47,15 @@
 </head>
 
 <body <?php body_class(); ?>>
+<div id="div1" class="box">
+                    <ul class="imgList owl-carousel owl-theme">
+
+                    </ul>
+
+                </div>
     <div id="header">
         <div class="container">
+
             <div class="row-fluid">
                 <?php
                 $logo_area_width = ot_get_option(TPLNAME . '_logo_area_width');
@@ -60,11 +67,8 @@
                 $margin_bottom   = $margin_bottom ? $margin_bottom[0] . $margin_bottom[1] : NULL;
                 ?>
 
-<div id="div1" class="box">
-                    <ul class="imgList">
 
-                    </ul>
-                </div>
+
                 <div id="logo" class="span<?php echo $logo_area_width; ?>" style="<?php echo $margin_top    ? "margin-top    : $margin_top; "    : '' ?>
                             <?php echo $margin_bottom ? "margin-bottom : $margin_bottom; " : '' ?>">
                     <a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
