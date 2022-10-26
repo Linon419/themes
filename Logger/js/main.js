@@ -52,7 +52,7 @@ jQuery(document).ready(function($) {
                         // });
     
                     } else {
-                        $(".imgList").append('<li><a href="#" style=" filter: gray;   -webkit-filter:grayscale(100%); /* Chrome 19+ & Safari 6+ */ -webkit-transition: all .6s ease;/* Fade to color for Chrome and Safari */-webkit-backface-visibility: hidden;/* Fix for transition flickering */"> <img id = "' + i.toLowerCase() + '"  src="https://flagcdn.com/w2560/' + i + '.png" /> </a></li>')
+                        $(".imgList").append('<li><a href="#" class = "grayimg"> <img id = "' + i.toLowerCase() + '"  src="https://flagcdn.com/w2560/' + i + '.png" /> </a></li>')
     
                     }
                 });
@@ -95,7 +95,7 @@ jQuery(document).ready(function($) {
                         items: 4
                     },
                     800: {
-                        items: 4
+                        items: 9
                     },
                     576: {
                         items: 9
