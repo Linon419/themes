@@ -25,7 +25,16 @@ $page_layout = lgr_get_post_meta(TPLNAME.'_page_layout');
 if ( $page_layout ) {
     $blog_layout = $page_layout;
 }
-?>    <div id="content" class="clearfix">
+?>
+<audio controls  style="  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:30px;
+  ">
+  <source src="/wp-content/themes/Logger/CapitalAnalystShort.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>  
+  <div id="content" class="clearfix">
         <div class="container">
             <?php if ( !is_front_page() && !empty($page_title) ): ?>
             <div class="page-header">

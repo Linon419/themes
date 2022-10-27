@@ -294,8 +294,8 @@ function lgr_fullwidth_map_shortcode( $atts, $content = null ) {
 
     extract(shortcode_atts(array(
         'provider'  => 'GoogleMap',
-        'longitude' => '121.498586',
-        'latitude'  => '31.239637',
+        'longitude' => '149.1497198',
+        'latitude'  => '-35.2400084',
         'zoom'      => 14,
         'apikey'    => '',
     ), $atts));
