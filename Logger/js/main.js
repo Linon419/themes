@@ -52,7 +52,7 @@ jQuery(document).ready(function($) {
                         // });
     
                     } else {
-                        $(".imgList").append('<li><a href="#" class = "grayimg"> <img id = "' + i.toLowerCase() + '"  src="https://flagcdn.com/w2560/' + i + '.png" /> </a></li>')
+                        $(".imgList").append('<li><a href="#"> <img class = "grayimg" id = "' + i.toLowerCase() + '"  src="https://flagcdn.com/w2560/' + i + '.png" /> </a></li>')
     
                     }
                 });
